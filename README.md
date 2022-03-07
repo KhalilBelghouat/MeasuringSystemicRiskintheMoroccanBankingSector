@@ -6,6 +6,8 @@ In this project, a PCA approach is followed in order to assess and measure syste
 
 ## Prerequisites
 
+All operations, from data preprocessing to systemic risk assessment via PCA, were carried out on ```MATLAB```, version R2021a.
+
 ## Theoretical Background
 
 ## Application and Results
