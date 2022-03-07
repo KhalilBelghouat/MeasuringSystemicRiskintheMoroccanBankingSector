@@ -10,6 +10,8 @@ All operations, from data preprocessing to systemic risk assessment via PCA, wer
 
 ## Theoretical Background
 
+In finance, systemic risk broadly denotes the risk of a cascading failure in the financial sector, caused by linkages within the financial system, resulting in a severe economic downturn. Due to its significant role in financial intermediation, the banking sector is typically the starting point of systemic risk analysis.
+
 ## Application and Results
 
 ## Code Structure
