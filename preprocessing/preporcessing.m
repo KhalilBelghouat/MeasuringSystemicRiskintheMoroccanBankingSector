@@ -4,24 +4,24 @@
 % This script passes the relevant data through important preprocessing steps.
 
 % Import the corresponding data of several Moroccan banks.
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/ATW Historical Data.csv');
+opts = detectImportOptions('ATW Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-ATW = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/ATW Historical Data.csv', opts);
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BCI Historical Data.csv');
+ATW = readtable('ATW Historical Data.csv', opts);
+opts = detectImportOptions('BCI Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-BCI = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BCI Historical Data.csv', opts);
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BCP Historical Data.csv');
+BCI = readtable('BCI Historical Data.csv', opts);
+opts = detectImportOptions('BCP Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-BCP = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BCP Historical Data.csv', opts);
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BOA Historical Data.csv');
+BCP = readtable('BCP Historical Data.csv', opts);
+opts = detectImportOptions('BOA Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-BOA = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/BOA Historical Data.csv', opts);
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/CDM Historical Data.csv');
+BOA = readtable('BOA Historical Data.csv', opts);
+opts = detectImportOptions('CDM Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-CDM = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/CDM Historical Data.csv', opts);
-opts = detectImportOptions('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/CIH Historical Data.csv');
+CDM = readtable('CDM Historical Data.csv', opts);
+opts = detectImportOptions('CIH Historical Data.csv');
 opts = setvartype(opts, 'Price', 'string');
-CIH = readtable('D:/Toshiba/Systemic Risk in the Moroccan Banking Sector/data/CIH Historical Data.csv', opts);
+CIH = readtable('CIH Historical Data.csv', opts);
 
 % Flip the data tables up to down.
 ATW = flipud(ATW);
