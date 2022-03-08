@@ -20,6 +20,8 @@ At the core of systemic risk is commonality among multiple financial institution
 
 ### About The Data
 
+The data, a financial time series of the 6 banks listed on the Casablanca Stock Exchange, is organized in a table containing 7 columns. The first column contains the date, the following 4 columns contain the closing, opening, high and low prices of the MASI index, while the remaining columns contain the index's trading volumes and daily variations.
+
 ### Model Building and Estimation
 
 
