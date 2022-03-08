@@ -14,6 +14,8 @@ In finance, systemic risk broadly denotes the risk of a cascading failure in the
 
 ## Application and Results
 
+At the core of systemic risk is commonality among multiple financial institutions, we thus attempt to measure commonality through PCA applied to the collection of banks listed on the Casablanca Stock Exchange. The results show that the first principal component captures 38.0978% of variability among banking institutions. Together, the first and second components explain 53.1845% of the return variation. Thus, a first principal component with higher explained variability implies higher commonality and level of interconnectedness among the various banking institutions and an increasing systemic risk.
+
 ## Code Structure
 
 ### About The Data
