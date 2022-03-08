@@ -24,4 +24,4 @@ The data, a financial time series of the 6 banks listed on the Casablanca Stock 
 
 ### Model Building and Estimation
 
-
+The function ```pca``` was used to find the principal components coefficients, scores, as well as the percentage of the total variance explained by each principal component.
